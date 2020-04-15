@@ -9,6 +9,11 @@ namespace AspMvcDemo.Controllers
     public class DemoController : Controller
     {
         // GET: Demo
+        public ActionResult Demo()
+        {
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();
